@@ -1,0 +1,22 @@
+{
+    "name": "pablov/proyecto1",
+    "description": "Un proyecti",
+    "type": "project",
+    "autoload": {
+
+        "psr-4": {
+            "Pablov\\Proyecto1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "PAblo.V"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ramsey/uuid": "^4.9",
+        "nesbot/carbon": "^3.10",
+      "phroute/phroute": "^2.2.0"
+    }
+}
